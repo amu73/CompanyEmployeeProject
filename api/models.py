@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 #create company models
 class Company(models.Model):
     Company_id = models.AutoField(primary_key=True)
